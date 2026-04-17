@@ -108,9 +108,6 @@ class SplitterApp:
         ttk.Spinbox(main, from_=1, to=9999, textvariable=self.start_var, width=8).grid(
             row=1, column=1, sticky="w", padx=6
         )
-        ttk.Label(main, text="(예: 초교 20, 재교 30)", foreground="#888").grid(
-            row=1, column=1, sticky="w", padx=(90, 0)
-        )
 
         # 출력 폴더
         ttk.Label(main, text="출력 폴더").grid(row=2, column=0, sticky="w", pady=4)
