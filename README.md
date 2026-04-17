@@ -10,14 +10,14 @@
 ## 다운로드
 
 1. 이 레포지토리의 **[Releases](../../releases)** 페이지로 이동
-2. 최신 버전에서 `PDF20장자르기.exe` 클릭 → 다운로드
+2. 최신 버전에서 `PDF20.exe` 클릭 → 다운로드
 3. 원하는 폴더(예: 바탕화면)에 저장
 
 > Windows 전용입니다. 별도 설치 없이 바로 실행됩니다.
 
 ## 사용법
 
-1. 다운로드한 `PDF20장자르기.exe`를 더블클릭합니다.
+1. 다운로드한 `PDF20.exe`를 더블클릭합니다.
 2. **PDF 파일** 「찾기…」 버튼으로 원본 PDF 선택
 3. **시작 페이지**에 숫자 입력 (초교 20, 재교 30 등)
 4. 필요하면 **출력 폴더** 「변경…」 버튼으로 저장 위치 지정 (기본값: 원본 폴더 안의 `split` 폴더)
@@ -55,6 +55,6 @@ python src/splitter.py
 
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --noconsole --name "PDF20장자르기" src/splitter.py
-# dist/PDF20장자르기.exe 생성
+pyinstaller --onefile --noconsole --name "PDF20" src/splitter.py
+# dist/PDF20.exe 생성
 ```
