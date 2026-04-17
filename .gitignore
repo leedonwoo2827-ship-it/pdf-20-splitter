@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.spec
+build/
+dist/
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+*.log
+_meomory/
+_test/
